@@ -21,4 +21,7 @@ li {
 
 .level::before {
   content: "Level ";
+  font-size: .4em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }
