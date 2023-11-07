@@ -9,12 +9,13 @@ import NewSkillForm from "./NewSkillForm";
 
 export default function App() {
 
-  const skills = [
+  // make "skills" a state variable
+  const [skills, setSkills]= useState([
     { name: "HTML", level: 5 },
     { name: "CSS", level: 3 },
     { name: "JavaScript", level: 4 },
     { name: "Python", level: 2 },
-  ];
+  ]);
 
   return (
     <div className="App">

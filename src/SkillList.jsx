@@ -7,7 +7,11 @@ export default function SkillList({passedSkills}) {
   // return UI as JSX
   return (
     <ul className="teal-text">
-      {passedSkills.map((skillObj, idx) => <SkillListItem skill={skillObj} key={idx} index={idx}/>)}
+      {passedSkills.map((skillObj, idx) => <SkillListItem 
+        skill={skillObj} 
+        key={idx} 
+        index={idx}
+        />)}
     </ul>
   )
 }
