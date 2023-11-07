@@ -1,12 +1,17 @@
+import './NewSkillListForm.css'
+
+
 // the default component
 export default function NewSkillForm() {
 
   return (
-    <form>
-      <label>Skill
-        <input type="text" />
+    <form className="NewSkillForm">
+      <label>
+        Skill
       </label>
+        <input type="text" />
       <label>Level
+      </label>
         <select type="text">
           <option value="1">1</option>
           <option value="2">2</option>
@@ -14,7 +19,6 @@ export default function NewSkillForm() {
           <option value="4">4</option>
           <option value="5">5</option>
         </select>
-      </label>
       <button type="submit">ADD SKILL</button>
     </form>
   )
